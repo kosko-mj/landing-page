@@ -145,3 +145,41 @@
     font-weight: bold;
     text-align: right;
 }
+
+.cta {
+    padding: 100px 10%;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text {
+    color: white;
+}
+
+.cta-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.cta-subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
