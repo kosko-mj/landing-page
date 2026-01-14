@@ -25,5 +25,59 @@
     font-size: 18px;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
+}
 
+.hero {
+    background-color: #1f2937;
+    padding: 100px 10%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    color: #f9faf8;
+}
+
+.hero-text {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #f9faf8;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border: none;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #2a67d8;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    background-color: #6d747d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 250px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
 }
