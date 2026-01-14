@@ -122,3 +122,26 @@
     text-align: center;
     color: #666;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 20%;
+}
+
+.quote-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
