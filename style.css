@@ -1,21 +1,28 @@
 body {
     margin: 0;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: #F5F1E8;
 }
 
 .header {
     display: flex;
-    background-color: #1f2937;
+    background-color: #1a3c27;
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
 }
 
 .logo {
-    font-size: 24pxpx;
-    font-family: "Roboto", sans-serif;
-    color: #f9faf8;
-    font-weight: bold;
+    font-size: 32px; /* Large text */
+    font-family: 'Garamond', 'Baskerville', 'Times New Roman', serif;    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #ffffff;
 }
+
 
 .nav-links {
     list-style-type: none;
@@ -25,14 +32,14 @@ body {
 }
 
 .nav-links a {
-    color: #e5e7eb;
+    color: #8fc79a;
     font-size: 18px;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
 }
 
 .hero {
-    background-color: #1f2937;
+    background-color: #1a3c27;
     padding: 100px 10%;
     display: flex;
     align-items: center;
@@ -41,19 +48,20 @@ body {
 
 .hero-title {
     font-size: 48px;
-    font-family: "Roboto", sans-serif;
-    color: #f9faf8;
+    font-family: 'Garamond', 'Baskerville', 'Times New Roman', serif;
+    color: #f5f1e8;
+    letter-spacing: 1px;
 }
 
 .hero-text {
     font-size: 18px;
     font-family: "Roboto", sans-serif;
-    color: #f9faf8;
+    color: #f5f1e8;
 }
 
 .hero-button {
-    background-color: #3882f6;
-    color: white;
+    background-color: #b8860b;
+    color: #1a3c27;
     border-radius: 8px;
     padding: 8px 32px;
     border: none;
@@ -64,7 +72,7 @@ body {
 }
 
 .hero-button:hover {
-    background-color: #2a67d8;
+    background-color: #Daa520;
 }
 
 .hero-content {
@@ -86,6 +94,16 @@ body {
     height: auto;
 }
 
+.placeholder {
+    background: #1a3c27;
+    color: #8fc79a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-style: italic;
+}
+
 .features {
     display: flex;
     flex-direction: column;
@@ -95,7 +113,7 @@ body {
 
 .features-title {
     font-size: 36px;
-    color: #1f2937;
+    color: #333333;
     font-weight: 900;
     margin-bottom: 50px;
 }
@@ -117,18 +135,19 @@ body {
 .card-image {
     width: 150px;
     height: 150px;
-    border: 3px solid #3882f6;
+    border: 3px solid #8fc79a;
     border-radius: 10px;
+    object-fit: contain;
     margin-bottom: 10px;
 }
 
 .card-text {
     text-align: center;
-    color: #666;
+    color: #333333;
 }
 
 .quote {
-    background-color: #e5e7eb;
+    background-color: #2d4a3a;
     padding: 100px 20%;
 }
 
@@ -140,7 +159,7 @@ body {
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #f5f1e8;
     margin-bottom: 20px;
 }
 
@@ -148,6 +167,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+    color: #f5f1e8;
 }
 
 .cta {
@@ -155,7 +175,7 @@ body {
 }
 
 .cta-container {
-    background-color: #3882f6;
+    background-color: #243f30;
     border-radius: 8px;
     padding: 50px 100px;
     display: flex;
@@ -179,8 +199,8 @@ body {
 
 .cta-button {
     background-color: transparent;
-    color: white;
-    border: 2px solid white;
+    color: #b8860b;
+    border: 2px solid #b8860b;
     border-radius: 8px;
     padding: 8px 32px;
     font-size: 18px;
@@ -189,7 +209,7 @@ body {
 }
 
 .footer {
-    background-color: #1f2937;
+    background-color: #1a3c27;
     color: white;
     padding: 40px;
     text-align: center;
@@ -197,5 +217,17 @@ body {
 
 .footer-text {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #f5f1e8;
+}
+
+/* Card 1 - white background to match image */
+.card:nth-child(1) .card-image {
+    background-color: white;
+    object-fit: contain;
+}
+
+/* Card 4 - black background to match image */
+.card:nth-child(4) .card-image {
+    background-color: black;
+    object-fit: contain;
 }
